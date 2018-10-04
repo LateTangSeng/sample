@@ -54,6 +54,18 @@ p {
   background-color: $navbar-color;
 }
 
+
+/* Users edit */
+
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+  .gravatar {
+    float: none;
+    max-width: 100px;
+  }
+
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -74,6 +86,12 @@ p {
   &:hover {
     background-color: transparent;
   }
+}
+
+.delete-btn {
+  float: right;
+  position: relative;
+  right: 0;
 }
 
 
